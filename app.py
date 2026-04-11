@@ -210,8 +210,8 @@ def show_about():
 
 # -------- UI --------
 root = tk.Tk()
-root.title("Advanced Sentiment Analyzer")
-root.geometry("800x600")
+root.title("Sentiment Analyzer")
+root.geometry("850x650")
 root.configure(bg='#f0f0f0')
 
 # Create gradient background

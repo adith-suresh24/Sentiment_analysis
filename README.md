@@ -179,6 +179,19 @@ Sentiment: Positive
 
 ---
 
+## As For app.py
+
+The app.py file is a standalone project that contains all the necessary functionality within a single file. It does not rely on any external CSV files by default, making it simple to run and easy to set up.
+
+However, if you want to generate customized feedback or modify the results, you can integrate a CSV file from external sources as needed. Ensure that the CSV file follows the expected format and structure so that the application can read and process the data correctly.
+
+To use a CSV file, place it in the project directory and update the file path in the code accordingly. You may also need to adjust the data parsing logic depending on the format of your CSV.
+
+Before running the application, make sure all required dependencies are installed. Once everything is set up, you can execute the script normally, and it will either use the default logic or the customized data provided through the CSV file.
+
+
+---
+
 ## 👨‍💻 Author
 
 Adith Suresh
